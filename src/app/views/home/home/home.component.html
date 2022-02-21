@@ -1,0 +1,10 @@
+<form  [formGroup]="form" (submit)="enter()">
+  <input type="email" placeholder="email" formControlName="email">
+
+
+  <button type="submit">
+      entrar
+  </button>
+</form>
+<p *ngIf="errors">Campo obrigatório</p>
+<app-recaptcha></app-recaptcha>

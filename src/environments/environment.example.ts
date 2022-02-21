@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  recaptchaV3_SITE_KEY: "6LdmFYweAAAAAEOIYqol4E8qzajlKduNNhiE52b5",
-  recaptchaV2_SITE_KEY: "6LeOH4weAAAAAMbldXsa_1VhTuheIVI8SWGqDjvV"
+  recaptchaV3_SITE_KEY: 'YOUR_SITE_KEY',
+  recaptchaV2_SITE_KEY: "YOUR_SITE_KEY"
 };
 
 /*
